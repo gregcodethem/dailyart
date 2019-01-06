@@ -1,0 +1,7 @@
+
+
+
+How to install PostgreSQL
+https://tutorial-extensions.djangogirls.org/en/optional_postgresql_installation/
+
+
