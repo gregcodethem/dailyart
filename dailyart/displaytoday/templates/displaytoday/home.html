@@ -1,0 +1,78 @@
+{% extends "base_logged_in.html" %}
+
+{% comment %}
+Template for viewing the home page, adapted from resumebuilder app.
+{% endcomment %}
+
+{% block styles %}
+  {{ block.super }}
+
+  <style>
+    div.resume-container {
+      margin: 24px auto 0;
+      max-width: 800px;
+    }
+
+    div.header-center-container {
+      text-align: center;
+
+      margin-top: 12px;
+    }
+
+    div.header-container {
+      text-align: left;
+
+      display: inline-block;
+    }
+
+    div.header-container > h3 {
+      margin-top: 0;
+
+      color: #666666;
+    }
+
+    section.resume-item {
+      margin-top: 36px;
+
+      position: relative;
+    }
+
+    section.resume-item > a.btn-left {
+
+      position: absolute;
+      right: 100px;
+      top: 0;
+    }
+
+    section.resume-item > a.btn-right {
+      
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    section.resume-item > div.number-of-items {
+
+      position: absolute;
+      right: 200px;
+      top: 4px;
+    }
+
+    div.resume-container > a.btn {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <div class="container content-section resume-container">
+    <div class="header-center-container">
+      <div class="header-container">
+        <h1>{{ request.user.first_name }} {{ request.user.last_name }}</h1>
+        <h3>{{ request.user.email }}</h3>
+      </div>
+    </div>
+
+
+  </div>
+{% endblock %}

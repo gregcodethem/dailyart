@@ -1,1 +1,3 @@
 *.pyc
+*.DS_Store
+dailyart/db.sqlite3
