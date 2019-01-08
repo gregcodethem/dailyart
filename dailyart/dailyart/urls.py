@@ -24,10 +24,13 @@ from displaytoday import views as display_views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('login/', auth_views.LoginView.as_view(), name='login'),
-    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+    #path('login/', auth_views.LoginView.as_view(), name='login'),
 
     path('accounts/login/', auth_views.LoginView.as_view(), name='login'),
+    path('logout/',
+         auth_views.LogoutView.as_view(
+             next_page='/'),
+         name='logout'),
 
     path('', RedirectView.as_view(pattern_name='home')),
     path('home/', display_views.home_view, name='home'),
