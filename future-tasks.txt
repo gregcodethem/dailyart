@@ -2,23 +2,32 @@
 
 Task ticket - Task - Person doing - Date Started - Completed (y/n) - Date completed - Changes incorporated into git origin (y/n) - Date changes incorporated. - Changes incorporated into live site (y/n) - Date
 
-1. Change references from resume builder to daily art - Greg - 8/1/18 - n
+1. Change references from resume builder to daily art - Greg - 8/1/18 - y - 8/1/18 - y - 8/1/18 - n
 
-Change initial display so it's not got the name and address in such big letters at the top.
+13. Log out link sends to admin logout, Rectify. - Greg - 8/1/18 - y 8/1/18
 
-Bring in functional test to test website can log in and log out.
+2. Remove repeats of templates.
 
-Populate database with some daily art text.
+3. Tidy up urls.py .
 
-Incorporate pictures.
+4. Change initial display so it's not got the name and address in such big letters at the top.
 
-Improve layout of site. Html, css, javascript etc
+5. Bring in functional test to test website can log in and log out.
 
-Enable users to like each daily art entry.
+12. Incorporate coverage into tests.
+
+6. Populate database with some daily art text.
+
+7. Incorporate pictures.
+
+8. Improve layout of site. Html, css, javascript etc
+
+9. Enable users to like each daily art entry.
 
 
+10. Put website online.
 
-switch database to postgresql
+11. switch database to postgresql
 
 
 
