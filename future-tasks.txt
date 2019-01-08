@@ -1,3 +1,25 @@
 # future-tasks
 
+Task ticket - Task - Person doing - Date Started - Completed (y/n) - Date completed - Changes incorporated into git origin (y/n) - Date changes incorporated. - Changes incorporated into live site (y/n) - Date
+
+1. Change references from resume builder to daily art - Greg - 8/1/18 - n
+
+Change initial display so it's not got the name and address in such big letters at the top.
+
+Bring in functional test to test website can log in and log out.
+
+Populate database with some daily art text.
+
+Incorporate pictures.
+
+Improve layout of site. Html, css, javascript etc
+
+Enable users to like each daily art entry.
+
+
+
 switch database to postgresql
+
+
+
+
